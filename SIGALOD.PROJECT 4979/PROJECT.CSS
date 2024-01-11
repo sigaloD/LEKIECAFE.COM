@@ -1,0 +1,177 @@
+body{
+    background-color: lavender;
+    color: green;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: green;
+    color: green;
+    padding: 10px;
+    border-radius: 6px;
+}
+.welcome{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.header ul{
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.header li{
+    display: inline-block;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.logo{
+    width: 55px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.LEKIE{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    background-color:white;
+    color: green;
+}
+.AVAILABLE{
+    text-align: center;
+    text-overflow: 2px; 
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    /* align-items: flex-start; */
+}
+.foods {
+    display: grid;
+    gap: 20px;
+    /* grid-template-columns: 400px 400px 400px; */
+    /* grid-template-rows: 200px 200px 200px; */
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+    grid-template-columns: repeat(3,2fr);
+    
+}
+.foods img {
+    height: 300px;
+    width: 100%;  
+}
+.food3 {
+    background-color: whitesmoke; 
+    text-align: center;
+    color: green;
+    font-style: oblique;
+    border-radius: 20px;
+}
+
+.Our{
+    text-align: center;
+    font-style: italic;
+    color:black;
+    border-radius: 20px;
+    
+}
+.About{
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    background-color:lightgreen;
+    padding: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: black;
+}
+.TIPS{
+    text-align: center;
+    color: green;
+}
+.book{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0;
+    background: linear-gradient(to right,black)
+    color(white);
+    padding: 100px 0 3;
+    border-top-left-radius: 125px;
+    font-size: 25px;
+    line-height: 20px;
+    background-color: green;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500px;
+
+
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.col h3{
+    color: white;
+    font-weight: 300px;
+    font-size: x-large;
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid red;
+    margin: 20px;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.red{
+    width: 50%;
+    height: 20px;
+    border-radius: 50%;
+}
+.SUBMIT{
+    text-align: center;
+}
+.row h3{
+    text-align: center;
+    font-style: italic;
+ BOOK.NAME{
+    text-align: center;
+}
+
+
+
